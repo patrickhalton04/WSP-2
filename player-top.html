@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7 on 7 | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+
+
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <a href="search.html"><img src="img/new.jpg"></a>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid ofmenu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li class="active"><a href="#members">Sign Up</a></li>
+
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+                <li><a href="index.html">home</a></li>
+                <li><a href="search.html">search teams</a></li>
+                <li><a href="team-done.html">search players</a></li>
+                <li><a href="http://www.nfl.com/">nfl.com</a></li>
+                <li><a href="http://espn.go.com/">espn.com</a></li>
+
+            </ul>
+        </section>
+    </nav>
+
+    <div class="row">
+
+        <div class="large-12">
+            <h1 id="team">Search Results:</h1>
+        </div>
+
+        <div class="large-12">
+            <h1 id="player">Top Rated</h1>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div id="final-search">
+
+                    <div id="search-cont"> <input type="text" placeholder="Search Team...">
+
+                    </div>
+
+                    <div id="btn-contatin">
+
+                        <div class="welcome">
+                            <p><a href="#" class="modal2Click">filter+</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="overlay2">
+                    <div id="modal2">
+                        <span class="close">X</span>
+
+                        <div class="targetDiv">
+                            <div class="Team">
+                                <h4>Type</h4><hr>
+                                <ul class="list">
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Run N Gun<br></li>
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Balanced<br></li>
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Spread<br></li>
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Ground attack<br></li>
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Power I<br></li>
+                                    <li><input class="check" type="radio" name="agegroup" value="Age">Shotgun<br></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <input name="addButton" type="button" id="addButton" value="Filter"/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="top-table">
+                <tr>
+                    <th>Player Name</th>
+                    <th>Overall</th>
+                </tr>
+                <tr>
+                    <td><a href="peyton.html">Peyton Manning</a><input class="check" type="checkbox" name="agegroup" value="Age"></td>
+                    <td class="small">99</td>
+                </tr>
+                <tr>
+                    <td><a href="calvin.html">Calvin Johnson</a><input class="check" type="checkbox" name="agegroup" value="Age"></td>
+                    <td class="small">98</td>
+                </tr>
+                <tr>
+                    <td><a href="ap.html">Adrian Peterson</a><input class="check" type="checkbox" name="agegroup" value="Age"></td>
+                    <td class="small">98</td>
+                </tr>
+                <tr>
+                    <td><a href="drew.html">Drew Brees</a><input class="check" type="checkbox" name="agegroup" value="Age"></td>
+                    <td class="small">97</td>
+                </tr>
+                <tr>
+                    <td><a href="marshawn.html">Marshawn Lynch</a><input class="check" type="checkbox" name="agegroup" value="Age"></td>
+                    <td class="small">93</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="large-6 columns">
+            <a href="team-done.html"><button id="signin">Pick Selected Player(s)</button></a>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="medium-12 columns">
+            <ul id="footlist">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Terms</a><li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Media</a></li>
+                <li>7 on 7 2014 &copy;</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

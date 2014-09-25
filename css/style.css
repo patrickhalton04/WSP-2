@@ -1,0 +1,454 @@
+
+/*===================================Landing======================================= */
+
+body{
+    background: url("../img/background.jpg")no-repeat fixed;
+    background-size:cover;
+}
+
+.row{
+    background: rgba(0, 0, 0,.45);
+}
+/*===================================Headers======================================= */
+h1{
+    text-align: center;
+    color: #F7931E;
+    font-family: 'Nunito', sans-serif;
+}
+
+#logo{
+    background: url("../img/test.png") no-repeat center;
+}
+
+
+#lucky{
+    text-align: center;
+    color:#F7931E;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#become{
+    text-align: center;
+    color: #ff6312;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#existing{
+    text-align: center;
+    color: #2b29ff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    margin-bottom: 6.5%;
+}
+
+
+
+h3{
+    margin-left: 35%;
+    color:#2b29ff;
+    font-family: 'Droid Serif', serif;
+}
+
+#logo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#logo-back{
+    background: #000;
+}
+
+h4{
+    color:#333;
+}
+
+.top-bar-section ul{
+    background: #241600;
+}
+
+/*===================================Content======================================= */
+
+img[alt="mainphoto"]{
+    width:100%;
+}
+
+#signup{
+    width:100%;
+    font-size: 1.5em;
+    background:#ff6312;
+    color: #050400;
+    opacity: 0.92;
+    font-family: 'Changa One', cursive;
+}
+
+
+
+#signin{
+    width:100%;
+    font-size: 1.5em;
+    background: #2b29ff;
+    opacity: 0.92;
+    color: #050400;
+    font-family: 'Roboto', sans-serif;
+}
+input[name="password2"]{
+    margin-bottom: 5%;
+}
+
+#signin:hover{
+   opacity: 1;
+}
+
+#signup:hover{
+    opacity: 1;
+}
+
+.active{
+    background: #FFF;
+
+}
+
+.sign{
+    background:#ff6312;
+    display: block;
+    text-align: center;
+    font-size:2em;
+    padding:5% 0;
+    margin-bottom: 5%;
+    color:#333;
+}
+
+#padding{
+    margin-top:12%;
+    background-color:#2b29ff ;
+}
+
+
+/*===================================Lists======================================= */
+.top-bar{
+    background:#241600;
+    opacity: 0.7;
+    height: 74px;
+    line-height: 74px;
+}
+
+.left li{
+    line-height: 74px;
+    height: 74px;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+    line-height: 74px;
+    font-size: 1em;
+    background:#241600;
+    color:#F7931E;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+    line-height: 74px;
+    font-size: 1em;
+    background: #F7931E;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+    background:#FFF;
+    color: #333;
+}
+
+span{
+    color:#FFF;
+}
+
+
+#footlist li{
+    display: inline;
+    margin:0 2%;
+    color: #fefff9;
+}
+
+#benefits{
+    list-style-type: none;
+    color:#FFF;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+
+}
+
+/*===================================Landing======================================= */
+
+
+
+.targetDiv {
+    color:#FFF;
+    border: 2px solid;
+
+}
+
+.play-info{
+    width:100%;
+    background: #241600;
+    color: #FFF;
+    list-style-type: none;
+    float: left;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+p{
+   font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.showSingle{
+    background: #F7931E;
+    color:#333;
+    font-size: 2em;
+    text-align: center;
+    padding: 5%;
+    width:100%;
+    margin:10% auto;
+    overflow: hidden;
+}
+
+input[type="text"]{
+    outline:none;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 16px;
+    background-image: url('http://www.kirupa.com/images/search.png');
+    background-position: 610px -10px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+#search-cont{
+    width:65%;
+    float:left;
+    overflow: hidden;
+
+}
+
+#btn-contatin{
+    overflow: hidden;
+    float:left;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+#final-search{
+    overflow: hidden;
+    width:100%;
+    margin-left: 16%;
+}
+/*=========================modal==============================*/
+#overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+#modal2 {
+    width: 60%;
+    box-shadow: 0 0 10px #000;
+    background: #ff420f;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left:35%;
+    margin-top: -200px;
+    margin-left: -200px;
+    z-index: 1001;
+    display: none;
+}
+
+#modal2 .header {
+    color:#FFF;
+    padding: 10px;
+}
+
+#modal2 p {
+    margin: 15px;
+}
+
+#modal2 .close {
+    position: absolute;
+    background: #CCC;
+    right: 5px;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.modal2Click{
+    margin-top: 1%;
+    font-size:1em;
+}
+
+#div1{
+    float:left;
+    width: 20%;
+}
+
+#div2{
+    float:left;
+    width: 20%;
+}
+
+#div3{
+    float:left;
+    width: 20%;
+}
+
+.Team{
+    font-size: 3em;
+    padding:10%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.type{
+    margin-left:10%;
+}
+
+input[id="addButton"]{
+    background: #241600;
+    font-family:arial sans-serif;
+    color: #FFF;
+    width: 10%;
+    padding: 1%;
+    font-size: 1em;
+}
+
+#modal2 .close{
+    background:#241600;
+    color: #FFF;
+
+}
+/*=========================search pages==============================*/
+
+.list{
+    list-style-type: none;
+    color: #333;
+}
+
+.list li:hover{
+    background: #222;
+}
+
+.check{
+    margin-right: 10%;
+}
+
+.small{
+    width:10%;
+}
+
+#top-table{
+    width:70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#top-table th{
+    background: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#top-table td{
+    font-size: 2em;
+    text-align: center;
+}
+
+#top-table tr{
+    border-bottom: 2px solid #FFF;
+    background: #0C371D;;
+}
+
+#top-table tr:hover{
+    background: #caccd0;
+}
+/*=========================Peyton page==============================*/
+
+.player-head{
+    text-align: center;
+    margin-top:5%;
+    color:#FFF;
+}
+
+.player-stats li{
+    font-size: 1.2em;
+    color:#FFF;
+}
+
+.videobcg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+/*=========================calvin page==============================*/
+
+.player-stats li{
+    font-size: 1.2em;
+    color:#FFF;
+}
+
+.videobcg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+/*=========================Index media query==============================*/
+@media (max-width: 643px){
+    .active{
+        display: none;}
+
+    .top-bar-section li:not(.has-form) a:not(.button){
+        display:none;
+    }
+}
+
+
+@media (max-width: 643px){
+    h3{
+        margin: 0;
+        text-align: center;
+    }
+}
+
